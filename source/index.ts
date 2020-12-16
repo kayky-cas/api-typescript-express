@@ -10,6 +10,7 @@ import express = require('express');
 
 const app: express.Application = express();
 
+// All configs are in "source/config/api_config.json"
 const config = require('./config/api_config.json');
 
 // Here is calling the router

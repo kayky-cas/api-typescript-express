@@ -14,14 +14,15 @@ route.use(express.json());
 
 // This will return "{mesage: 'This is a mesage for test GET!'}"
 route.get('/', (require, response) => {
+
     response.json({mesage: 'This is a mesage for test GET!'});
 });
 
 // This will return what was posted. 
 route.post('/', (require, response) => {
+
     response.json(require.body);
 });
-
 
 
 module.exports = route;
