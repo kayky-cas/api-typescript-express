@@ -1,3 +1,5 @@
 node_modules/
 
+source/config/user_config/
+
 *.js
